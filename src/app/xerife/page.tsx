@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Aluno, ChamadaData } from '@/types';
+import { ChamadaData } from '@/types';
 
 export default function Xerife() {
   const [chamadaData, setChamadaData] = useState<ChamadaData>({

@@ -31,7 +31,7 @@ export async function GET() {
     
     return NextResponse.json(chamadaData);
   } catch (error) {
-    return NextResponse.json({ error: 'Erro ao ler dados' }, { status: 500 });
+    return NextResponse.json({ error: `Erro ao ler dados: ${error}` }, { status: 500 });
   }
 }
 
@@ -43,6 +43,6 @@ export async function POST(request: Request) {
     
     return NextResponse.json({ success: true });
   } catch (error) {
-    return NextResponse.json({ error: 'Erro ao salvar dados' }, { status: 500 });
+    return NextResponse.json({ error: `Erro ao salvar dados: ${error}` }, { status: 500 });
   }
 } 
