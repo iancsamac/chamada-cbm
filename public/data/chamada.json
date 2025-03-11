@@ -2,299 +2,2063 @@
   "data": "10/03/2025",
   "turno": "Manhã",
   "alunos": [
-    {"Numero": 1, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ADRIANO ALMEIDA", "Presente": false, "Motivo": ""},
-    {"Numero": 2, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ADRIANO CARDOSO", "Presente": false, "Motivo": ""},
-    {"Numero": 3, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALBERTO SENA", "Presente": false, "Motivo": ""},
-    {"Numero": 4, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALBERTO VINICIUS", "Presente": false, "Motivo": ""},
-    {"Numero": 5, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALCIDES", "Presente": true, "Motivo": ""},       
-    {"Numero": 6, "Turma": "ALFA", "Nome de Guerra": "AL SD BM CYNTILLE", "Presente": false, "Motivo": ""},         
-    {"Numero": 7, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALESSANDRO", "Presente": false, "Motivo": ""},
-    {"Numero": 8, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALEX", "Presente": false, "Motivo": ""},
-    {"Numero": 9, "Turma": "ALFA", "Nome de Guerra": "AL SD BM PETTERSON", "Presente": false, "Motivo": ""},
-    {"Numero": 10, "Turma": "ALFA", "Nome de Guerra": "AL SD BM SOUSA MORAES", "Presente": false, "Motivo": ""},
-    {"Numero": 11, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ALISSON", "Presente": false, "Motivo": ""},
-    {"Numero": 12, "Turma": "ALFA", "Nome de Guerra": "AL SD BM AMANDA", "Presente": false, "Motivo": ""},
-    {"Numero": 13, "Turma": "ALFA", "Nome de Guerra": "AL SD BM AMANDA SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 14, "Turma": "ALFA", "Nome de Guerra": "AL SD BM PATRICIA", "Presente": false, "Motivo": ""},
-    {"Numero": 15, "Turma": "ALFA", "Nome de Guerra": "AL SD BM AMANDA RAMOS", "Presente": false, "Motivo": ""},
-    {"Numero": 16, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BEATRIZ", "Presente": false, "Motivo": ""},
-    {"Numero": 17, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANDERSON BISPO", "Presente": false, "Motivo": ""},
-    {"Numero": 18, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANDERSON CARLOS", "Presente": false, "Motivo": ""},
-    {"Numero": 19, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANDERSON CERQUEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 20, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANDREY", "Presente": false, "Motivo": ""},  
-    {"Numero": 21, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANTHONY", "Presente": false, "Motivo": ""},
-    {"Numero": 22, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ANTONIO FREITAS", "Presente": false, "Motivo": ""},
-    {"Numero": 23, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ARTHUR CESAR", "Presente": false, "Motivo": ""},
-    {"Numero": 24, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ARTHUR EDUARDO", "Presente": false, "Motivo": ""},
-    {"Numero": 25, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ARTUR AGUIAR", "Presente": false, "Motivo": ""},  
-    {"Numero": 26, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ARTUR HENRIQUE", "Presente": false, "Motivo": ""},
-    {"Numero": 27, "Turma": "ALFA", "Nome de Guerra": "AL SD BM ASLAN", "Presente": false, "Motivo": ""},
-    {"Numero": 28, "Turma": "ALFA", "Nome de Guerra": "AL SD BM AYRTON", "Presente": false, "Motivo": ""},
-    {"Numero": 29, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BRENDO", "Presente": false, "Motivo": ""},
-    {"Numero": 30, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BRENO QUEIROZ", "Presente": false, "Motivo": ""},
-    {"Numero": 31, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BRENO SILVA", "Presente": false, "Motivo": ""}, 
-    {"Numero": 32, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BRUNO GABRIEL", "Presente": false, "Motivo": ""},
-    {"Numero": 33, "Turma": "ALFA", "Nome de Guerra": "AL SD BM BRUNO LEONARDO", "Presente": false, "Motivo": ""},
-    {"Numero": 34, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CAIO FALCAO", "Presente": false, "Motivo": ""},
-    {"Numero": 35, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CARLOS HENRIQUE", "Presente": false, "Motivo": ""},
-    {"Numero": 36, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CAROLINE", "Presente": false, "Motivo": ""},
-    {"Numero": 37, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CASSIANO", "Presente": false, "Motivo": ""},
-    {"Numero": 38, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CHRISTIAN", "Presente": false, "Motivo": ""},
-    {"Numero": 39, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CLARA", "Presente": false, "Motivo": ""},
-    {"Numero": 40, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CLAUDIO DIAS", "Presente": false, "Motivo": ""},
-    {"Numero": 41, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CLAUDIO NAZARIO", "Presente": false, "Motivo": ""},
-    {"Numero": 42, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM CLEBERSON", "Presente": false, "Motivo": ""},
-    {"Numero": 43, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIEL MENDONÇA", "Presente": false, "Motivo": ""},
-    {"Numero": 44, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIEL LIMA", "Presente": false, "Motivo": ""},
-    {"Numero": 45, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIEL OLIVEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 46, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIEL RIBEIRO", "Presente": false, "Motivo": ""},
-    {"Numero": 47, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIEL NETO", "Presente": false, "Motivo": ""},    
-    {"Numero": 48, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANIELLE", "Presente": false, "Motivo": ""},
-    {"Numero": 49, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM BITENCOUR", "Presente": false, "Motivo": ""},
-    {"Numero": 50, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DANILO", "Presente": false, "Motivo": ""},
-    {"Numero": 51, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DAVI", "Presente": false, "Motivo": ""},
-    {"Numero": 52, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DAVID MELO", "Presente": false, "Motivo": ""},
-    {"Numero": 53, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DAVIDSON", "Presente": false, "Motivo": ""}, 
-    {"Numero": 54, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DIEGO", "Presente": false, "Motivo": ""},
-    {"Numero": 55, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DIEGO XAVIER", "Presente": false, "Motivo": ""},
-    {"Numero": 56, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DIOGO", "Presente": false, "Motivo": ""},
-    {"Numero": 57, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM DOMINIQUE", "Presente": false, "Motivo": ""},
-    {"Numero": 58, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM EDSON", "Presente": false, "Motivo": ""},
-    {"Numero": 59, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM EDUARDA", "Presente": false, "Motivo": ""},  
-    {"Numero": 60, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM ELCIOR", "Presente": false, "Motivo": ""},
-    {"Numero": 61, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM ENDREW", "Presente": false, "Motivo": ""},
-    {"Numero": 62, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM ENIO", "Presente": false, "Motivo": ""},
-    {"Numero": 63, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM EVANDSON", "Presente": false, "Motivo": ""},
-    {"Numero": 64, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM FABRICIO", "Presente": false, "Motivo": ""},
-    {"Numero": 65, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM FELIPE ALEF", "Presente": false, "Motivo": ""},  
-    {"Numero": 66, "Turma": "BRAVO", "Nome de Guerra": "AL SD BM BORALI", "Presente": false, "Motivo": ""},   
-    {"Numero": 67, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FELIPE BRITO", "Presente": false, "Motivo": ""},
-    {"Numero": 68, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FELIPE CUNHA", "Presente": false, "Motivo": ""},
-    {"Numero": 69, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FELIPE SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 70, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM HIEGO", "Presente": false, "Motivo": ""},
-    {"Numero": 71, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FERNANDA SANTANA", "Presente": false, "Motivo": ""}, 
-    {"Numero": 72, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM QUELE", "Presente": false, "Motivo": ""},
-    {"Numero": 73, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FERNANDO", "Presente": false, "Motivo": ""},
-    {"Numero": 74, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FERNANDO GABRIEL", "Presente": false, "Motivo": ""},
-    {"Numero": 75, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FERNANDO SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 76, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FLAVIA", "Presente": false, "Motivo": ""},
-    {"Numero": 77, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FLAVIANE", "Presente": false, "Motivo": ""},     
-    {"Numero": 78, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FLAVIO", "Presente": false, "Motivo": ""},
-    {"Numero": 79, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM CECILIANO", "Presente": false, "Motivo": ""},
-    {"Numero": 80, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM FRANKLIN", "Presente": false, "Motivo": ""},
-    {"Numero": 81, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL ANJOS", "Presente": false, "Motivo": ""},
-    {"Numero": 82, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL GOES", "Presente": false, "Motivo": ""}, 
-    {"Numero": 83, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM CLAUDINO", "Presente": false, "Motivo": ""},
-    {"Numero": 84, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 85, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL SANTANA", "Presente": false, "Motivo": ""},
-    {"Numero": 86, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM SMITH", "Presente": false, "Motivo": ""},
-    {"Numero": 87, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL TOSTA", "Presente": false, "Motivo": ""},
-    {"Numero": 88, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIEL VITOR", "Presente": false, "Motivo": ""},  
-    {"Numero": 89, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIELA SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 90, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GABRIELLA MELO", "Presente": false, "Motivo": ""},
-    {"Numero": 91, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GEORGE", "Presente": false, "Motivo": ""},
-    {"Numero": 92, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GEOVANE", "Presente": false, "Motivo": ""},
-    {"Numero": 93, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GILMAR", "Presente": false, "Motivo": ""},
-    {"Numero": 94, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GONÇALO", "Presente": false, "Motivo": ""},  
-    {"Numero": 95, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""},
-    {"Numero": 96, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GUILHERME ANDRADE", "Presente": false, "Motivo": ""},
-    {"Numero": 97, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GUILHERME BISPO", "Presente": false, "Motivo": ""},
-    {"Numero": 98, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM GUSTAVO PIRES", "Presente": false, "Motivo": ""},
-    {"Numero": 99, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WADSON", "Presente": false, "Motivo": ""},
-    {"Numero": 100, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 101, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 102, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 103, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 104, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 105, "Turma": "CHARLIE", "Nome de Guerra": "AL SD BM WAGNER", "Presente": false, "Motivo": ""},
-    {"Numero": 106, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HAKYLLA", "Presente": false, "Motivo": ""},
-    {"Numero": 107, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HELTON", "Presente": false, "Motivo": ""},
-    {"Numero": 108, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HENDERSON", "Presente": false, "Motivo": ""},
-    {"Numero": 109, "Turma": "DELTA", "Nome de Guerra": "AL SD BM CESAR", "Presente": false, "Motivo": ""},
-    {"Numero": 110, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HIAGGO BRITO", "Presente": false, "Motivo": ""},
-    {"Numero": 111, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HIGO CABRAL", "Presente": false, "Motivo": ""}, 
-    {"Numero": 112, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HIGOR VIEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 113, "Turma": "DELTA", "Nome de Guerra": "AL SD BM HUGO", "Presente": false, "Motivo": ""},
-    {"Numero": 114, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IAGO LUCIANO", "Presente": false, "Motivo": ""},
-    {"Numero": 115, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IAGO MATOS", "Presente": false, "Motivo": ""},
-    {"Numero": 116, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IAN BRENO", "Presente": false, "Motivo": ""},
-    {"Numero": 117, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IAN LESSA", "Presente": false, "Motivo": ""}, 
-    {"Numero": 118, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IANC", "Presente": false, "Motivo": ""},
-    {"Numero": 119, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IANDERLEI", "Presente": false, "Motivo": ""},
-    {"Numero": 120, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IGOR CRUZ", "Presente": false, "Motivo": ""},
-    {"Numero": 121, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IGOR LOPES", "Presente": false, "Motivo": ""},
-    {"Numero": 122, "Turma": "DELTA", "Nome de Guerra": "AL SD BM IRES", "Presente": false, "Motivo": ""},
-    {"Numero": 123, "Turma": "DELTA", "Nome de Guerra": "AL SD BM ISLLA", "Presente": false, "Motivo": ""},
-    {"Numero": 124, "Turma": "DELTA", "Nome de Guerra": "AL SD BM ITALO VINICIUS", "Presente": false, "Motivo": ""},
-    {"Numero": 125, "Turma": "DELTA", "Nome de Guerra": "AL SD BM ITHALO MASCARENHAS", "Presente": false, "Motivo": ""},
-    {"Numero": 126, "Turma": "DELTA", "Nome de Guerra": "AL SD BM SARAIVA", "Presente": false, "Motivo": ""},
-    {"Numero": 127, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JACKSON", "Presente": false, "Motivo": ""},
-    {"Numero": 128, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JADE", "Presente": false, "Motivo": ""},
-    {"Numero": 129, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JAQUELINE", "Presente": false, "Motivo": ""},
-    {"Numero": 130, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO GABRIEL", "Presente": false, "Motivo": ""},
-    {"Numero": 131, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO SOUZA", "Presente": false, "Motivo": ""},
-    {"Numero": 132, "Turma": "DELTA", "Nome de Guerra": "AL SD BM SODRE", "Presente": false, "Motivo": ""},
-    {"Numero": 133, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO BRITO", "Presente": false, "Motivo": ""},
-    {"Numero": 134, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO MARCELO", "Presente": false, "Motivo": ""},
-    {"Numero": 135, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO MAURICIO", "Presente": false, "Motivo": ""},
-    {"Numero": 136, "Turma": "DELTA", "Nome de Guerra": "AL SD BM JOAO SANTIAGO", "Presente": false, "Motivo": ""},
-    {"Numero": 137, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JOCIEL", "Presente": false, "Motivo": ""},
-    {"Numero": 138, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JOENILSON", "Presente": false, "Motivo": ""},
-    {"Numero": 139, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JORGE", "Presente": false, "Motivo": ""},
-    {"Numero": 140, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JOSE CERQUEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 141, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JOSE LEONARDO", "Presente": false, "Motivo": ""},
-    {"Numero": 142, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JOSE PAULO", "Presente": false, "Motivo": ""},
-    {"Numero": 143, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JUAN LUI", "Presente": false, "Motivo": ""},
-    {"Numero": 144, "Turma": "ECHO", "Nome de Guerra": "AL SD BM JUMARACI", "Presente": false, "Motivo": ""},
-    {"Numero": 145, "Turma": "ECHO", "Nome de Guerra": "AL SD BM KAIQUE ALVIM", "Presente": false, "Motivo": ""},
-    {"Numero": 146, "Turma": "ECHO", "Nome de Guerra": "AL SD BM KAIQUE FIGUEREDO", "Presente": false, "Motivo": ""},
-    {"Numero": 147, "Turma": "ECHO", "Nome de Guerra": "AL SD BM KAYO BARBOSA", "Presente": false, "Motivo": ""},
-    {"Numero": 148, "Turma": "ECHO", "Nome de Guerra": "AL SD BM KHEMYSON", "Presente": false, "Motivo": ""},
-    {"Numero": 149, "Turma": "ECHO", "Nome de Guerra": "AL SD BM KLAYTON SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 150, "Turma": "ECHO", "Nome de Guerra": "AL SD BM REIS", "Presente": false, "Motivo": ""},
-    {"Numero": 151, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LAECIO", "Presente": false, "Motivo": ""},
-    {"Numero": 152, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LAIRO", "Presente": false, "Motivo": ""},
-    {"Numero": 153, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LAISSA", "Presente": false, "Motivo": ""},
-    {"Numero": 154, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LARISSA", "Presente": false, "Motivo": ""},
-    {"Numero": 155, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LEANDRO", "Presente": false, "Motivo": ""},
-    {"Numero": 156, "Turma": "ECHO", "Nome de Guerra": "AL SD BM CAETANO", "Presente": false, "Motivo": ""},
-    {"Numero": 157, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LEOMARCOS", "Presente": false, "Motivo": ""},
-    {"Numero": 158, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LEONARDO", "Presente": false, "Motivo": ""},
-    {"Numero": 159, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LEONARDO OLIVEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 160, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LIZANDRA", "Presente": false, "Motivo": ""},
-    {"Numero": 161, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LORENNA", "Presente": false, "Motivo": ""},
-    {"Numero": 162, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LUAN FERNANDO", "Presente": false, "Motivo": ""},
-    {"Numero": 163, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LUAN MIGUEL", "Presente": false, "Motivo": ""},
-    {"Numero": 164, "Turma": "ECHO", "Nome de Guerra": "AL SD BM ALBAN", "Presente": false, "Motivo": ""},
-    {"Numero": 165, "Turma": "ECHO", "Nome de Guerra": "AL SD BM LUCAS CALDAS", "Presente": false, "Motivo": ""},
-    {"Numero": 166, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUCAS MERCES", "Presente": false, "Motivo": ""},
-    {"Numero": 167, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUCAS MACHADO", "Presente": false, "Motivo": ""},
-    {"Numero": 168, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUCAS SABINO", "Presente": false, "Motivo": ""},
-    {"Numero": 169, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUCAS PORTO", "Presente": false, "Motivo": ""},
-    {"Numero": 170, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIGI", "Presente": false, "Motivo": ""},
-    {"Numero": 171, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIS HENRIQUE", "Presente": false, "Motivo": ""},
-    {"Numero": 172, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIS PAULO", "Presente": false, "Motivo": ""},
-    {"Numero": 173, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIZ EDUARDO", "Presente": false, "Motivo": ""},
-    {"Numero": 174, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIZ FERNANDO", "Presente": false, "Motivo": ""},
-    {"Numero": 175, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIZ LIMA", "Presente": false, "Motivo": ""},
-    {"Numero": 176, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIZ MIGUEL", "Presente": false, "Motivo": ""},
-    {"Numero": 177, "Turma": "FOX", "Nome de Guerra": "AL SD BM MAGNO", "Presente": false, "Motivo": ""},
-    {"Numero": 178, "Turma": "FOX", "Nome de Guerra": "AL SD BM MAICK", "Presente": false, "Motivo": ""},
-    {"Numero": 179, "Turma": "FOX", "Nome de Guerra": "AL SD BM MARCELLO VINICIUS", "Presente": false, "Motivo": ""},
-    {"Numero": 180, "Turma": "FOX", "Nome de Guerra": "AL SD BM MARCELO CRUZ", "Presente": false, "Motivo": ""},
-    {"Numero": 181, "Turma": "FOX", "Nome de Guerra": "AL SD BM MARCELO MONTEIRO", "Presente": false, "Motivo": ""},
-    {"Numero": 182, "Turma": "FOX", "Nome de Guerra": "AL SD BM MARCO AURELIO", "Presente": false, "Motivo": ""},
-    {"Numero": 183, "Turma": "FOX", "Nome de Guerra": "AL SD BM LUIZA", "Presente": false, "Motivo": ""},
-    {"Numero": 184, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS AZEVEDO", "Presente": false, "Motivo": ""},
-    {"Numero": 185, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS MOTA", "Presente": false, "Motivo": ""},
-    {"Numero": 186, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS NUNES", "Presente": false, "Motivo": ""},
-    {"Numero": 187, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS FELIPE", "Presente": false, "Motivo": ""},
-    {"Numero": 188, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS RIOS", "Presente": false, "Motivo": ""},
-    {"Numero": 189, "Turma": "FOX", "Nome de Guerra": "AL SD BM MATHEUS ROBERTO", "Presente": false, "Motivo": ""},
-    {"Numero": 190, "Turma": "FOX", "Nome de Guerra": "AL SD BM MICAELA", "Presente": false, "Motivo": ""},
-    {"Numero": 191, "Turma": "FOX", "Nome de Guerra": "AL SD BM MICHEL", "Presente": false, "Motivo": ""},
-    {"Numero": 192, "Turma": "FOX", "Nome de Guerra": "AL SD BM MILTON", "Presente": false, "Motivo": ""},
-    {"Numero": 193, "Turma": "FOX", "Nome de Guerra": "AL SD BM MOACIR", "Presente": false, "Motivo": ""},
-    {"Numero": 194, "Turma": "FOX", "Nome de Guerra": "AL SD BM MURILO", "Presente": false, "Motivo": ""},
-    {"Numero": 195, "Turma": "FOX", "Nome de Guerra": "AL SD BM NAILSON", "Presente": false, "Motivo": ""},
-    {"Numero": 196, "Turma": "FOX", "Nome de Guerra": "AL SD BM NATAN TEIXEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 197, "Turma": "FOX", "Nome de Guerra": "AL SD BM NICOLAS SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 198, "Turma": "FOX", "Nome de Guerra": "AL SD BM NICOLAS SUZART", "Presente": false, "Motivo": ""},
-    {"Numero": 199, "Turma": "GOLF", "Nome de Guerra": "AL SD BM ROMERO", "Presente": false, "Motivo": ""},
-    {"Numero": 200, "Turma": "GOLF", "Nome de Guerra": "AL SD BM OTAVIO", "Presente": false, "Motivo": ""},
-    {"Numero": 201, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PABLO ALMEIDA", "Presente": false, "Motivo": ""},
-    {"Numero": 202, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PEDRO NILO", "Presente": false, "Motivo": ""},
-    {"Numero": 203, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PEDRO SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 204, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PEDRO SOUZA", "Presente": false, "Motivo": ""},
-    {"Numero": 205, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PHELIPE VIEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 206, "Turma": "GOLF", "Nome de Guerra": "AL SD BM PRISCILA", "Presente": false, "Motivo": ""},
-    {"Numero": 207, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RAFAEL REIS", "Presente": false, "Motivo": ""},
-    {"Numero": 208, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RAFAEL VICTOR", "Presente": false, "Motivo": ""},
-    {"Numero": 209, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RAILTON", "Presente": false, "Motivo": ""},
-    {"Numero": 210, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RAMON", "Presente": false, "Motivo": ""},
-    {"Numero": 211, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RANGEL LAPA", "Presente": false, "Motivo": ""},
-    {"Numero": 212, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RAQUEL", "Presente": false, "Motivo": ""},
-    {"Numero": 213, "Turma": "GOLF", "Nome de Guerra": "AL SD BM REBECA SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 214, "Turma": "GOLF", "Nome de Guerra": "AL SD BM REBECA ALMEIDA", "Presente": false, "Motivo": ""},
-    {"Numero": 215, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RENATO", "Presente": false, "Motivo": ""},
-    {"Numero": 216, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RICK", "Presente": false, "Motivo": ""},
-    {"Numero": 217, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RIQUELME", "Presente": false, "Motivo": ""},
-    {"Numero": 218, "Turma": "GOLF", "Nome de Guerra": "AL SD BM ROBERT", "Presente": false, "Motivo": ""},
-    {"Numero": 219, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RODRIGO", "Presente": false, "Motivo": ""},
-    {"Numero": 220, "Turma": "GOLF", "Nome de Guerra": "AL SD BM ROQUE", "Presente": false, "Motivo": ""},
-    {"Numero": 221, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RIBEIRO GUIMARAES", "Presente": false, "Motivo": ""},
-    {"Numero": 222, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RONALDO", "Presente": false, "Motivo": ""},
-    {"Numero": 223, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RONIE", "Presente": false, "Motivo": ""},
-    {"Numero": 224, "Turma": "GOLF", "Nome de Guerra": "AL SD BM RUI LIMA", "Presente": false, "Motivo": ""},
-    {"Numero": 225, "Turma": "GOLF", "Nome de Guerra": "AL SD BM SAMUEL CAMPOS", "Presente": false, "Motivo": ""},
-    {"Numero": 226, "Turma": "GOLF", "Nome de Guerra": "AL SD BM SAMUEL GARCIA", "Presente": false, "Motivo": ""},
-    {"Numero": 227, "Turma": "GOLF", "Nome de Guerra": "AL SD BM SILLAS", "Presente": false, "Motivo": ""},
-    {"Numero": 228, "Turma": "GOLF", "Nome de Guerra": "AL SD BM STENIO", "Presente": false, "Motivo": ""},
-    {"Numero": 229, "Turma": "GOLF", "Nome de Guerra": "AL SD BM TACIO", "Presente": false, "Motivo": ""},
-    {"Numero": 230, "Turma": "GOLF", "Nome de Guerra": "AL SD BM TAUAN", "Presente": false, "Motivo": ""},
-    {"Numero": 231, "Turma": "GOLF", "Nome de Guerra": "AL SD BM TAYANNE", "Presente": false, "Motivo": ""},
-    {"Numero": 232, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM THAINA", "Presente": false, "Motivo": ""},
-    {"Numero": 233, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM THARLES", "Presente": false, "Motivo": ""},
-    {"Numero": 234, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM THIAGO PURIFICAÇÃO", "Presente": false, "Motivo": ""},
-    {"Numero": 235, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM THIAGO CARNEIRO", "Presente": false, "Motivo": ""},
-    {"Numero": 236, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM THIAGAO FALCAO", "Presente": false, "Motivo": ""},
-    {"Numero": 237, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM TIAGO MATOS", "Presente": false, "Motivo": ""},
-    {"Numero": 238, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM TIAGO VINICIUS", "Presente": false, "Motivo": ""},
-    {"Numero": 239, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM UEBERSON", "Presente": false, "Motivo": ""},
-    {"Numero": 240, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM UESLEY", "Presente": false, "Motivo": ""},
-    {"Numero": 241, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM ULISSES", "Presente": false, "Motivo": ""},
-    {"Numero": 242, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VALESCA", "Presente": false, "Motivo": ""},
-    {"Numero": 243, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VICTOR BASTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 244, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VICTOR JESUS", "Presente": false, "Motivo": ""},
-    {"Numero": 245, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VICTOR GABRIEL", "Presente": false, "Motivo": ""},
-    {"Numero": 246, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VICTOR SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 247, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VINICIOS MIRANDA", "Presente": false, "Motivo": ""},
-    {"Numero": 248, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VINICIUS FERREIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 249, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VINICIUS REIS", "Presente": false, "Motivo": ""},
-    {"Numero": 250, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VINICIUS TEIXEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 251, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VITOR GOMES", "Presente": false, "Motivo": ""},
-    {"Numero": 252, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VITOR HUGO", "Presente": false, "Motivo": ""},
-    {"Numero": 253, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VITOR PEREIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 254, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VITOR MARCELINO", "Presente": false, "Motivo": ""},
-    {"Numero": 255, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VITOR SAMUEL", "Presente": false, "Motivo": ""},
-    {"Numero": 256, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM VIVALDO", "Presente": false, "Motivo": ""},
-    {"Numero": 257, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM WANDERSON", "Presente": false, "Motivo": ""},
-    {"Numero": 258, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM WILLIAM ALMEIDA", "Presente": false, "Motivo": ""},
-    {"Numero": 259, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM WILLIAM OLIVEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 260, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM WILLIAM PIMENTEL", "Presente": false, "Motivo": ""},
-    {"Numero": 261, "Turma": "HOTEL", "Nome de Guerra": "AL SD BM YAGO LACERDA", "Presente": false, "Motivo": ""},  
-    {"Numero": 262, "Turma": "INDIA", "Nome de Guerra": "AL SD BM ADRIANO ALVES", "Presente": false, "Motivo": ""},
-    {"Numero": 263, "Turma": "INDIA", "Nome de Guerra": "AL SD BM ALESSANDRA", "Presente": false, "Motivo": ""},
-    {"Numero": 264, "Turma": "INDIA", "Nome de Guerra": "AL SD BM ALLAN NUNES", "Presente": false, "Motivo": ""},
-    {"Numero": 265, "Turma": "INDIA", "Nome de Guerra": "AL SD BM ANTONIO PEREIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 266, "Turma": "INDIA", "Nome de Guerra": "AL SD BM THAIS", "Presente": false, "Motivo": ""}, 
-    {"Numero": 267, "Turma": "INDIA", "Nome de Guerra": "AL SD BM CAIO NOGUEIRA", "Presente": false, "Motivo": ""},
-    {"Numero": 268, "Turma": "INDIA", "Nome de Guerra": "AL SD BM CARLOS SOUZA", "Presente": false, "Motivo": ""},
-    {"Numero": 269, "Turma": "INDIA", "Nome de Guerra": "AL SD BM DIOGENES", "Presente": false, "Motivo": ""},
-    {"Numero": 270, "Turma": "INDIA", "Nome de Guerra": "AL SD BM DIONE", "Presente": false, "Motivo": ""},
-    {"Numero": 271, "Turma": "INDIA", "Nome de Guerra": "AL SD BM FERNANDO PIRES", "Presente": false, "Motivo": ""},  
-    {"Numero": 272, "Turma": "INDIA", "Nome de Guerra": "AL SD BM FERNANDO ROCHA", "Presente": false, "Motivo": ""},
-    {"Numero": 273, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GABRIEL BRAGA", "Presente": false, "Motivo": ""},
-    {"Numero": 274, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUSTAVO SANTOS", "Presente": false, "Motivo": ""},
-    {"Numero": 275, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUSTAVO SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 276, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 277, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 278, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 279, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 280, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 281, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""},   
-    {"Numero": 282, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 283, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 284, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 285, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 286, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 287, "Turma": "INDIA", "Nome de Guerra": "AL SD BM GUILHERME", "Presente": false, "Motivo": ""}, 
-    {"Numero": 288, "Turma": "INDIA", "Nome de Guerra": "AL SD BM MARIO", "Presente": false, "Motivo": ""},
-    {"Numero": 289, "Turma": "INDIA", "Nome de Guerra": "AL SD BM MATHEUS ANTUNES", "Presente": false, "Motivo": ""},
-    {"Numero": 290, "Turma": "INDIA", "Nome de Guerra": "AL SD BM MATHEUS SILVA", "Presente": false, "Motivo": ""},
-    {"Numero": 291, "Turma": "INDIA", "Nome de Guerra": "AL SD BM NATAN RODRIGUES", "Presente": false, "Motivo": ""},
-    {"Numero": 292, "Turma": "INDIA", "Nome de Guerra": "AL SD BM RUAN CLEBER", "Presente": false, "Motivo": ""},
-    {"Numero": 293, "Turma": "INDIA", "Nome de Guerra": "AL SD BM SARA", "Presente": false, "Motivo": ""},
-    {"Numero": 294, "Turma": "INDIA", "Nome de Guerra": "AL SD BM VICTOR ABRAAO", "Presente": false, "Motivo": ""}
+    {
+      "Numero": 1,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ADRIANO ALMEIDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 2,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ADRIANO CARDOSO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 3,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALBERTO SENA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 4,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALBERTO VINICIUS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 5,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALCIDES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 6,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM CYNTILLE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 7,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALESSANDRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 8,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALEX",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 9,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM PETTERSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 10,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM SOUSA MORAES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 11,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ALISSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 12,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM AMANDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 13,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM AMANDA SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 14,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM PATRICIA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 15,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM AMANDA RAMOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 16,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BEATRIZ",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 17,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANDERSON BISPO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 18,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANDERSON CARLOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 19,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANDERSON CERQUEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 20,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANDREY",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 21,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANTHONY",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 22,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ANTONIO FREITAS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 23,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ARTHUR CESAR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 24,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ARTHUR EDUARDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 25,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ARTUR AGUIAR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 26,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ARTUR HENRIQUE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 27,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM ASLAN",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 28,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM AYRTON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 29,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BRENDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 30,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BRENO QUEIROZ",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 31,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BRENO SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 32,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BRUNO GABRIEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 33,
+      "Turma": "ALFA",
+      "Nome de Guerra": "AL SD BM BRUNO LEONARDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 34,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CAIO FALCAO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 35,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CARLOS HENRIQUE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 36,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CAROLINE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 37,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CASSIANO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 38,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CHRISTIAN",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 39,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CLARA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 40,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CLAUDIO DIAS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 41,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CLAUDIO NAZARIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 42,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM CLEBERSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 43,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIEL MENDONÇA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 44,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIEL LIMA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 45,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIEL OLIVEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 46,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIEL RIBEIRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 47,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIEL NETO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 48,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANIELLE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 49,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM BITENCOUR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 50,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DANILO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 51,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DAVI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 52,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DAVID MELO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 53,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DAVIDSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 54,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DIEGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 55,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DIEGO XAVIER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 56,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DIOGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 57,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM DOMINIQUE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 58,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM EDSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 59,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM EDUARDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 60,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM ELCIOR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 61,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM ENDREW",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 62,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM ENIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 63,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM EVANDSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 64,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM FABRICIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 65,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM FELIPE ALEF",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 66,
+      "Turma": "BRAVO",
+      "Nome de Guerra": "AL SD BM BORALI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 67,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FELIPE BRITO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 68,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FELIPE CUNHA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 69,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FELIPE SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 70,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM HIEGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 71,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FERNANDA SANTANA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 72,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM QUELE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 73,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FERNANDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 74,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FERNANDO GABRIEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 75,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FERNANDO SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 76,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FLAVIA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 77,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FLAVIANE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 78,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FLAVIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 79,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM CECILIANO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 80,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM FRANKLIN",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 81,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL ANJOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 82,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL GOES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 83,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM CLAUDINO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 84,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 85,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL SANTANA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 86,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM SMITH",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 87,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL TOSTA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 88,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIEL VITOR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 89,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIELA SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 90,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GABRIELLA MELO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 91,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GEORGE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 92,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GEOVANE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 93,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GILMAR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 94,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GONÇALO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 95,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 96,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GUILHERME ANDRADE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 97,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GUILHERME BISPO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 98,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM GUSTAVO PIRES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 99,
+      "Turma": "CHARLIE",
+      "Nome de Guerra": "AL SD BM WADSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 100,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 101,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 102,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 103,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 104,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 105,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM WAGNER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 106,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HAKYLLA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 107,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HELTON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 108,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HENDERSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 109,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM CESAR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 110,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HIAGGO BRITO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 111,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HIGO CABRAL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 112,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HIGOR VIEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 113,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM HUGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 114,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IAGO LUCIANO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 115,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IAGO MATOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 116,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IAN BRENO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 117,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IAN LESSA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 118,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IANC",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 119,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IANDERLEI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 120,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IGOR CRUZ",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 121,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IGOR LOPES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 122,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM IRES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 123,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM ISLLA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 124,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM ITALO VINICIUS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 125,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM ITHALO MASCARENHAS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 126,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM SARAIVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 127,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM JACKSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 128,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM JADE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 129,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM JAQUELINE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 130,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM JOAO GABRIEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 131,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM JOAO SOUZA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 132,
+      "Turma": "DELTA",
+      "Nome de Guerra": "AL SD BM SODRE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 133,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOAO BRITO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 134,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOAO MARCELO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 135,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOAO MAURICIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 136,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOAO SANTIAGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 137,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOCIEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 138,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOENILSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 139,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JORGE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 140,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOSE CERQUEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 141,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOSE LEONARDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 142,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JOSE PAULO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 143,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JUAN LUI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 144,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM JUMARACI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 145,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM KAIQUE ALVIM",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 146,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM KAIQUE FIGUEREDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 147,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM KAYO BARBOSA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 148,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM KHEMYSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 149,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM KLAYTON SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 150,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM REIS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 151,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LAECIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 152,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LAIRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 153,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LAISSA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 154,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LARISSA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 155,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LEANDRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 156,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM CAETANO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 157,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LEOMARCOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 158,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LEONARDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 159,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LEONARDO OLIVEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 160,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LIZANDRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 161,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LORENNA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 162,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LUAN FERNANDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 163,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LUAN MIGUEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 164,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM ALBAN",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 165,
+      "Turma": "ECHO",
+      "Nome de Guerra": "AL SD BM LUCAS CALDAS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 166,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUCAS MERCES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 167,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUCAS MACHADO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 168,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUCAS SABINO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 169,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUCAS PORTO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 170,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIGI",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 171,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIS HENRIQUE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 172,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIS PAULO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 173,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIZ EDUARDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 174,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIZ FERNANDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 175,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIZ LIMA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 176,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIZ MIGUEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 177,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MAGNO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 178,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MAICK",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 179,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MARCELLO VINICIUS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 180,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MARCELO CRUZ",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 181,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MARCELO MONTEIRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 182,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MARCO AURELIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 183,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM LUIZA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 184,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS AZEVEDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 185,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS MOTA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 186,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS NUNES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 187,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS FELIPE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 188,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS RIOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 189,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MATHEUS ROBERTO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 190,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MICAELA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 191,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MICHEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 192,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MILTON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 193,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MOACIR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 194,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM MURILO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 195,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM NAILSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 196,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM NATAN TEIXEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 197,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM NICOLAS SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 198,
+      "Turma": "FOX",
+      "Nome de Guerra": "AL SD BM NICOLAS SUZART",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 199,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM ROMERO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 200,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM OTAVIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 201,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PABLO ALMEIDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 202,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PEDRO NILO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 203,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PEDRO SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 204,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PEDRO SOUZA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 205,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PHELIPE VIEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 206,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM PRISCILA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 207,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RAFAEL REIS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 208,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RAFAEL VICTOR",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 209,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RAILTON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 210,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RAMON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 211,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RANGEL LAPA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 212,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RAQUEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 213,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM REBECA SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 214,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM REBECA ALMEIDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 215,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RENATO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 216,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RICK",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 217,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RIQUELME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 218,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM ROBERT",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 219,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RODRIGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 220,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM ROQUE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 221,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RIBEIRO GUIMARAES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 222,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RONALDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 223,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RONIE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 224,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM RUI LIMA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 225,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM SAMUEL CAMPOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 226,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM SAMUEL GARCIA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 227,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM SILLAS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 228,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM STENIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 229,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM TACIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 230,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM TAUAN",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 231,
+      "Turma": "GOLF",
+      "Nome de Guerra": "AL SD BM TAYANNE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 232,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM THAINA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 233,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM THARLES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 234,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM THIAGO PURIFICAÇÃO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 235,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM THIAGO CARNEIRO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 236,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM THIAGAO FALCAO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 237,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM TIAGO MATOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 238,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM TIAGO VINICIUS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 239,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM UEBERSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 240,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM UESLEY",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 241,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM ULISSES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 242,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VALESCA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 243,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VICTOR BASTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 244,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VICTOR JESUS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 245,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VICTOR GABRIEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 246,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VICTOR SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 247,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VINICIOS MIRANDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 248,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VINICIUS FERREIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 249,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VINICIUS REIS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 250,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VINICIUS TEIXEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 251,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VITOR GOMES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 252,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VITOR HUGO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 253,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VITOR PEREIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 254,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VITOR MARCELINO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 255,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VITOR SAMUEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 256,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM VIVALDO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 257,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM WANDERSON",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 258,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM WILLIAM ALMEIDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 259,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM WILLIAM OLIVEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 260,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM WILLIAM PIMENTEL",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 261,
+      "Turma": "HOTEL",
+      "Nome de Guerra": "AL SD BM YAGO LACERDA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 262,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM ADRIANO ALVES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 263,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM ALESSANDRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 264,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM ALLAN NUNES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 265,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM ANTONIO PEREIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 266,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM THAIS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 267,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM CAIO NOGUEIRA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 268,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM CARLOS SOUZA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 269,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM DIOGENES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 270,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM DIONE",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 271,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM FERNANDO PIRES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 272,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM FERNANDO ROCHA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 273,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GABRIEL BRAGA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 274,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUSTAVO SANTOS",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 275,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUSTAVO SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 276,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 277,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 278,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 279,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 280,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 281,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 282,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 283,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 284,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 285,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 286,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 287,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM GUILHERME",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 288,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM MARIO",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 289,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM MATHEUS ANTUNES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 290,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM MATHEUS SILVA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 291,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM NATAN RODRIGUES",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 292,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM RUAN CLEBER",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 293,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM SARA",
+      "Presente": false,
+      "Motivo": ""
+    },
+    {
+      "Numero": 294,
+      "Turma": "INDIA",
+      "Nome de Guerra": "AL SD BM VICTOR ABRAAO",
+      "Presente": false,
+      "Motivo": ""
+    }
   ]
 }

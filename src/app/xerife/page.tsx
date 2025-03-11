@@ -143,6 +143,10 @@ export default function Xerife() {
     return chamadaData.alunos.filter(aluno => aluno.Turma === turma && !aluno.Presente);
   };
 
+  const getFaltosos = () => {
+    return chamadaData.alunos.filter(aluno => !aluno.Presente);
+  };
+
   return (
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center mb-8">
@@ -192,11 +196,25 @@ export default function Xerife() {
       </div>
 
       <div className="space-y-4">
+      <div>
+
+      {getFaltosos().length > 0 ? (
+                <div>
+                  <p>Faltosos: {getFaltosos().length}</p>
+                </div>
+              ) : (
+                <p>Sem alterações</p>
+              )}
+      </div>
+
         {turmas.map(turma => {
           const faltosos = getFaltososPorTurma(turma);
           const isExpanded = turmasExpandidas[turma];
-          
           return (
+
+            
+              
+
             <div key={turma} className="card rounded-lg overflow-hidden bg-red-950/50">
               <button
                 onClick={() => toggleTurma(turma)}
