@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { ChamadaData } from '@/types';
+import { Aluno, ChamadaData } from '@/types';
+import { getAlunos, resetarChamadaa, atualizarMotivoo } from '@/service/util';
 
 export default function Xerife() {
   const [chamadaData, setChamadaData] = useState<ChamadaData>({
@@ -13,21 +14,25 @@ export default function Xerife() {
   const [loading, setLoading] = useState(false);
   const [turmasExpandidas, setTurmasExpandidas] = useState<{[key: string]: boolean}>({});
 
+
   useEffect(() => {
     carregarDados();
   }, []);
 
   const carregarDados = async () => {
     try {
-      const response = await fetch('/api/presenca');
-      const data = await response.json();
-      setChamadaData(data);
+      const alunos2 = await getAlunos();
+      setChamadaData({
+        data: new Date().toLocaleDateString('pt-BR'),
+        turno: "Manhã",
+        alunos: alunos2
+      });
     } catch (error) {
       console.error('Erro ao carregar dados:', error);
     }
   };
 
-  const turmas = [...new Set(chamadaData.alunos.map(aluno => aluno.Turma))].sort();
+  const turmas = [...new Set(chamadaData.alunos.map(aluno => aluno.turma))].sort();
 
   const toggleTurma = (turma: string) => {
     setTurmasExpandidas(prev => ({
@@ -40,7 +45,7 @@ export default function Xerife() {
     setChamadaData(prev => ({
       ...prev,
       alunos: prev.alunos.map(aluno =>
-        aluno.Numero === numeroAluno ? { ...aluno, Motivo: motivo } : aluno
+        aluno.id === numeroAluno ? { ...aluno, motivo: motivo } : aluno
       )
     }));
   }
@@ -52,7 +57,7 @@ export default function Xerife() {
 
     setLoading(true);
     const alunosAtualizados = chamadaData.alunos.map(aluno =>
-      aluno.Numero === numeroAluno ? { ...aluno, Motivo: motivo } : aluno
+      aluno.id === numeroAluno ? { ...aluno, motivo: motivo } : aluno
     );
 
     try {
@@ -61,13 +66,7 @@ export default function Xerife() {
         alunos: alunosAtualizados
       };
 
-      await fetch('/api/presenca', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dadosAtualizados),
-      });
+      await atualizarMotivoo(numeroAluno, motivo);
 
       setChamadaData(dadosAtualizados);
     } catch (error) {
@@ -77,7 +76,7 @@ export default function Xerife() {
     }
   };
 
-  const resetarChamada = async () => {
+  const resetarChamada = async (turma?: string) => {
     if (loading || !chamadaData.turno) return;
 
     if (!confirm('ATENÇÃO! Tem certeza que deseja resetar a chamada? Isso irá marcar todos os militares como ausentes.')) {
@@ -86,24 +85,30 @@ export default function Xerife() {
 
     setLoading(true);
     try {
-      const alunosResetados = chamadaData.alunos.map(aluno => ({
-        ...aluno,
-        Presente: false,
-        Motivo: ''
-      }));
+      let alunosResetados: Aluno[] = [];
+      if (turma) {
+        alunosResetados = chamadaData.alunos.filter(aluno => aluno.turma === turma).map(aluno => ({
+          ...aluno,
+          presente: false,
+          motivo: ''
+        }));
+      } else {
+        alunosResetados = chamadaData.alunos.map(aluno => ({
+          ...aluno,
+          presente: false,
+          motivo: ''
+        }));
+      }
 
       const dadosAtualizados = {
         ...chamadaData,
-        alunos: alunosResetados
+        alunos: chamadaData.alunos.map(aluno => {
+          const atualizado = alunosResetados.find(a => a.id === aluno.id);
+          return atualizado || aluno;
+        })
       };
 
-      await fetch('/api/presenca', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(dadosAtualizados),
-      });
+      await resetarChamadaa(turma);
 
       setChamadaData(dadosAtualizados);
     } catch (error) {
@@ -140,11 +145,11 @@ export default function Xerife() {
   };
 
   const getFaltososPorTurma = (turma: string) => {
-    return chamadaData.alunos.filter(aluno => aluno.Turma === turma && !aluno.Presente);
+    return chamadaData.alunos.filter(aluno => aluno.turma === turma && !aluno.presente);
   };
 
   const getFaltosos = () => {
-    return chamadaData.alunos.filter(aluno => !aluno.Presente);
+    return chamadaData.alunos.filter(aluno => !aluno.presente);
   };
 
   return (
@@ -184,7 +189,7 @@ export default function Xerife() {
             </div>
           </div>
           <button
-            onClick={resetarChamada}
+            onClick={() => resetarChamada()}
             disabled={loading || !chamadaData.turno}
             className={`button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50 ${
               loading || !chamadaData.turno ? 'opacity-50 cursor-not-allowed' : ''
@@ -214,17 +219,17 @@ export default function Xerife() {
 
             
               
-
-            <div key={turma} className="card rounded-lg overflow-hidden bg-red-950/50">
+            <div className="flex items-center relative" key={turma+'-turma'}>
+            <div key={turma} className="card rounded-lg overflow-hidden bg-red-950/50 w-full">
               <button
                 onClick={() => toggleTurma(turma)}
-                className="w-full p-4 text-left flex justify-between items-center hover:bg-black/30 transition-colors"
+                className="w-full p-2 text-left flex justify-between items-center hover:bg-black/30 transition-colors"
               >
-                <div >
-                  <h2 className="text-xl font-bold inline-flex items-center">
+                <div className="flex items-center gap-1">
+                  <h2 className="text-lg font-bold inline-flex items-center">
                     <span className="text-gold">Turma {turma}</span>
                     {faltosos.length > 0 ? (
-                      <span className="badge-military ml-3 text-sm bg-red-100 text-red-600 rounded-md px-2">
+                      <span className="badge-military ml-3 text-sm bg-red-100 text-red-600 rounded-md px-1">
                         {faltosos.length} {faltosos.length === 1 ? 'faltoso' : 'faltosos'}
                       </span>
                     ) : (
@@ -247,6 +252,7 @@ export default function Xerife() {
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
+                
               </button>
               
               {isExpanded && (
@@ -256,22 +262,23 @@ export default function Xerife() {
                   ) : (
                     <div className="flex flex-col gap-2">
                       {faltosos.map(aluno => (
-                        <div key={aluno.Numero} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
-                          <p className="font-bold text-gold">{aluno["Nome de Guerra"]}</p>
+                        <div key={aluno.id} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
+                          <p className="font-bold text-gold">{aluno.nome}</p>
                           <div className="mt-2">
                             <label className="block text-sm mb-1">
                               Motivo da falta:
                             </label>
-                            <form action={() => atualizarMotivo(aluno.Numero, aluno.Motivo)}>
+                              <form action={() => atualizarMotivo(aluno.id, aluno.motivo || '')}>
                               <textarea
                               className="textarea-military w-full p-2 rounded-lg border border-red-950"
                               rows={2}
-                              value={aluno.Motivo}
-                              onChange={(e) => update(aluno.Numero, e.target.value)}
+                              value={aluno.motivo || '' }
+                              onChange={(e) => update(aluno.id, e.target.value)}
                               placeholder="Digite o motivo da falta..."
                               disabled={loading}
                             />
                             <button type="submit" className="button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50">Salvar</button>
+                            <br />
                             </form>
                             
                           </div>
@@ -281,6 +288,9 @@ export default function Xerife() {
                   )}
                 </div>
               )}
+            </div>
+              <button onClick={() => resetarChamada(turma)} className="button-military px-3 py-2.5 rounded-r-lg  bg-red-950 text-amber-50 absolute top-0 right-0">Resetar</button>
+
             </div>
           );
         })}

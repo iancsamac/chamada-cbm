@@ -2,59 +2,53 @@
 
 import { useState, useEffect } from 'react';
 import { Aluno, ChamadaData } from '@/types';
-
+import { getAlunos, marcarPresencaa } from '@/service/util';
 export default function Home() {
   const [chamadaData, setChamadaData] = useState<ChamadaData>({
     data: new Date().toLocaleDateString('pt-BR'),
     turno: null,
     alunos: []
   });
+
   const [turmaSelecionada, setTurmaSelecionada] = useState<string>('');
   const [alunoSelecionado, setAlunoSelecionado] = useState<Aluno | null>(null);
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     carregarDados();
   }, []);
 
   const carregarDados = async () => {
     try {
-      const response = await fetch('/api/presenca');
-      const data = await response.json();
-      console.log(data);
-      setChamadaData(data);
+      const alunos2 = await getAlunos();
+      setChamadaData({
+        data: new Date().toLocaleDateString('pt-BR'),
+        turno: "Manhã",
+        alunos: alunos2
+      });
     } catch (error) {
       console.error('Erro ao carregar dados:', error);
     }
   };
 
-  const turmas = [...new Set(chamadaData.alunos.map(aluno => aluno.Turma))].sort();
-  const alunosDaTurma = chamadaData.alunos.filter(aluno => aluno.Turma === turmaSelecionada);
+  
+  const turmas = [...new Set(chamadaData.alunos.map(aluno => aluno.turma))].sort();
+  const alunosDaTurma = chamadaData.alunos.filter(aluno => aluno.turma === turmaSelecionada);
 
   const marcarPresenca = async (aluno: Aluno) => {
-    if (!aluno.Presente && !loading && chamadaData.turno) {
+    if (!aluno.presente && !loading && chamadaData.turno) {
       setLoading(true);
       const alunosAtualizados = chamadaData.alunos.map(a => 
-        a.Numero === aluno.Numero ? { ...a, Presente: true } : a
+        a.id === aluno.id ? { ...a, presente: true } : a
       );
 
       try {
-        await fetch('/api/presenca', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            ...chamadaData,
-            alunos: alunosAtualizados
-          }),
-        });
+        await marcarPresencaa(aluno.id);
 
         setChamadaData(prev => ({
           ...prev,
           alunos: alunosAtualizados
         }));
-        setAlunoSelecionado({ ...aluno, Presente: true });
+        setAlunoSelecionado({ ...aluno, presente: true });
       } catch (error) {
         console.error('Erro ao salvar presença:', error);
       } finally {
@@ -64,6 +58,7 @@ export default function Home() {
   };
 
   return (
+
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center mb-8 gap-2">
         <div>
@@ -115,16 +110,16 @@ export default function Home() {
               </label>
               <select
                 className="select-military w-full p-3 rounded-lg border border-gold"
-                value={alunoSelecionado?.Numero || ''}
+                value={alunoSelecionado?.id || ''}
                 onChange={(e) => {
-                  const aluno = alunosDaTurma.find(a => a.Numero.toString() === e.target.value);
+                  const aluno = alunosDaTurma.find(a => a.id.toString() === e.target.value);
                   setAlunoSelecionado(aluno || null);
                 }}
               >
                 <option value="" className="text-gold">Selecione um militar</option>
                 {alunosDaTurma.map(aluno => (
-                  <option key={aluno.Numero} value={aluno.Numero}>
-                    {aluno["Nome de Guerra"]}
+                  <option key={aluno.id} value={aluno.id}>
+                    {`${aluno.id<=9 ? '0' : ''}${aluno.id <=99 ? '0' : ''}${aluno.id} - ${aluno.nome}`}
                   </option>
                 ))}
               </select>
@@ -134,19 +129,19 @@ export default function Home() {
           {/* Cartão do Aluno Selecionado */}
           {alunoSelecionado && (
             <div className="card p-6 rounded-lg bg-gray-200 border-2 border-gold">
-              <h3 className="text-xl font-bold mb-4 text-gold">{alunoSelecionado["Nome de Guerra"]}</h3>
+              <h3 className="text-xl font-bold mb-4 text-gold">{alunoSelecionado.nome}</h3>
               <div className="flex justify-between items-center">
                 <div className="space-y-2">
-                  <p>Número: <span className="text-gold">{alunoSelecionado.Numero}</span></p>
-                  <p>Turma: <span className="text-gold">{alunoSelecionado.Turma}</span></p>
+                  <p>Número: <span className="text-gold">{alunoSelecionado.id}</span></p>
+                  <p>Turma: <span className="text-gold">{alunoSelecionado.turma}</span></p>
                   <p>
                     Status: {' '}
-                    <span className={alunoSelecionado.Presente ? 'text-green-400' : 'text-red-400'}>
-                      {alunoSelecionado.Presente ? 'Presente' : 'Não registrado'}
+                    <span className={alunoSelecionado.presente ? 'text-green-400' : 'text-red-400'}>
+                      {alunoSelecionado.presente ? 'Presente' : 'Não registrado'}
                     </span>
                   </p>
                 </div>
-                {!alunoSelecionado.Presente && (
+                {!alunoSelecionado.presente && (
                   <button
                     onClick={() => marcarPresenca(alunoSelecionado)}
                     disabled={loading}

@@ -1,9 +1,7 @@
-export interface Aluno {
-  Numero: number;
-  Turma: string;
-  "Nome de Guerra": string;
-  Presente: boolean;
-  Motivo: string;
+import { Prisma } from "@prisma/client";
+
+export interface Aluno extends Prisma.AlunoCreateInput {
+  id: number;
 }
 
 export interface ChamadaData {
@@ -11,3 +9,12 @@ export interface ChamadaData {
   turno: "Manhã" | "Tarde" | null;
   alunos: Aluno[];
 } 
+
+export interface Desempenho {
+  flexao: number;
+  barra: number;
+  natação: number;
+  corrida1000m: number;
+  corrida2400m: number;
+  abdominal: number;
+}
