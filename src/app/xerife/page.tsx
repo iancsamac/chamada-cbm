@@ -263,7 +263,7 @@ export default function Xerife() {
                     <div className="flex flex-col gap-2">
                       {faltosos.map(aluno => (
                         <div key={aluno.id} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
-                          <p className="font-bold text-gold">{aluno.nome}</p>
+                          <p className="font-bold text-gold">{(aluno.id < 10 ? '0' : '') + (aluno.id < 100 ? '0' : '') + aluno.id} - {aluno.nome}</p>
                           <div className="mt-2">
                             <label className="block text-sm mb-1">
                               Motivo da falta:
