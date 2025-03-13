@@ -118,7 +118,7 @@ export const DesempenhoForm = ({alunos, nomeTurma}: {alunos: Aluno[], nomeTurma:
                     <div className="flex items-center gap-1">
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
                             e.preventDefault();
-                            setNatação(natação - (natação%60 === 0 ? 1 : 0));
+                            setNatação((natação - 1) < 0 ? 0 : natação - 1);
                         }}>-</button>
                         {natação%60}
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
@@ -147,7 +147,7 @@ export const DesempenhoForm = ({alunos, nomeTurma}: {alunos: Aluno[], nomeTurma:
                     <div className="flex items-center gap-1">
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
                             e.preventDefault();
-                            setCorrida1000m(corrida1000m - (corrida1000m%60 === 0 ? 1 : 0));
+                            setCorrida1000m((corrida1000m - 1) < 0 ? 0 : corrida1000m - 1);
                         }}>-</button>
                         {corrida1000m%60}
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
@@ -176,7 +176,7 @@ export const DesempenhoForm = ({alunos, nomeTurma}: {alunos: Aluno[], nomeTurma:
                     <div className="flex items-center gap-1">
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
                             e.preventDefault();
-                            setCorrida2400m(corrida2400m - (corrida2400m%60 === 0 ? 1 : 0));
+                            setCorrida2400m((corrida2400m - 1) < 0 ? 0 : corrida2400m - 1);
                         }}>-</button>
                         {corrida2400m%60}
                         <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
