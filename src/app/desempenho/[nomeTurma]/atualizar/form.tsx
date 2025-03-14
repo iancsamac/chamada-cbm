@@ -79,7 +79,7 @@ export const DesempenhoForm = ({alunos, nomeTurma}: {alunos: Aluno[], nomeTurma:
                         value={item.value}
                         onChange={(e) => item.setValue(Math.max(0, parseInt(e.target.value) || 0))}
                     />
-                    rep's
+                    rep`s
                 </label>
             ))}
             {[
