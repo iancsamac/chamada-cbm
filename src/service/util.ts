@@ -18,6 +18,22 @@ await prisma.aluno.update({
   return aluno;
 }
 
+export async function removerPresencaa(id: number) {
+  const aluno = await prisma.aluno.findUnique({
+    where: { id },
+  });
+
+  if (!aluno) {
+    throw new Error("Aluno não encontrado");
+  }
+
+await prisma.aluno.update({
+    where: { id },
+    data: { presente: false },
+  }); 
+  return aluno;
+}
+
 export async function resetarChamadaa(turma?: string) {
   if (!turma) {
     await prisma.aluno.updateMany({

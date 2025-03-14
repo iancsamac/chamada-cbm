@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Aluno, ChamadaData } from '@/types';
-import { getAlunos, resetarChamadaa, atualizarMotivoo } from '@/service/util';
+import { getAlunos, resetarChamadaa, atualizarMotivoo, marcarPresencaa, removerPresencaa } from '@/service/util';
 
 export default function Xerife() {
   const [chamadaData, setChamadaData] = useState<ChamadaData>({
@@ -156,6 +156,51 @@ export default function Xerife() {
     return chamadaData.alunos.filter(aluno => !aluno.presente);
   };
 
+  const marcarPresenca = async (aluno: Aluno) => {
+    if (!aluno.presente && !loading && chamadaData.turno) {
+      setLoading(true);
+      const alunosAtualizados = chamadaData.alunos.map(a => 
+        a.id === aluno.id ? { ...a, presente: true } : a
+      );
+
+      try {
+        await marcarPresencaa(aluno.id);
+
+        setChamadaData(prev => ({
+          ...prev,
+          alunos: alunosAtualizados
+        }));
+      } catch (error) {
+        console.error('Erro ao salvar presença:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+  }
+
+  const removerPresenca = async (aluno: Aluno) => {
+    if (aluno.presente && !loading && chamadaData.turno) {
+      setLoading(true);
+      const alunosAtualizados = chamadaData.alunos.map(a => 
+        a.id === aluno.id ? { ...a, presente: false } : a
+      );
+
+
+      try {
+        await removerPresencaa(aluno.id);
+
+        setChamadaData(prev => ({
+          ...prev,
+          alunos: alunosAtualizados
+        }));
+      } catch (error) {
+        console.error('Erro ao salvar presença:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
+  }
+
   return (
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center mb-8">
@@ -274,9 +319,6 @@ export default function Xerife() {
               
               {isExpanded && (
                 <div className=" bg-white pt-2">
-                  {faltosos.length === 0 ? (
-                    <p className="text-green-400 font-semibold p-4">Sem alteração</p>
-                  ) : (
                     <div className="flex flex-col gap-2">
                       {alunos.map(aluno => (
                         !aluno.presente ? (
@@ -295,7 +337,11 @@ export default function Xerife() {
                               placeholder="Digite o motivo da falta..."
                               disabled={loading}
                             />
-                            <button type="submit" className="button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50">Salvar</button>
+                            <div className='flex justify-between'>
+                              <button type="submit" className="button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50">Salvar</button>
+                              <button onClick={()=>{marcarPresenca(aluno)}} className="button-military px-6 py-3 rounded-lg bg-green-500 text-amber-50">Marcar Presença</button>
+                            </div>
+
                             <br />
                             </form>
                             
@@ -305,11 +351,12 @@ export default function Xerife() {
                         <div key={aluno.id} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
                           <p className="font-bold text-gold">{(aluno.id < 10 ? '0' : '') + (aluno.id < 100 ? '0' : '') + aluno.id} - {aluno.nome}</p>
                           <p className="text-green-400 font-semibold p-4">Presente</p>
+                          <button onClick={()=>{removerPresenca(aluno)}} className="button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50">Remover Presença</button>
+
                         </div>
                       )
                       ))}
                     </div>
-                  )}
                 </div>
               )}
             </div>

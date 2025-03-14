@@ -66,145 +66,51 @@ export const DesempenhoForm = ({alunos, nomeTurma}: {alunos: Aluno[], nomeTurma:
               </select>
             </div>
             <form className="card flex flex-col gap-4 py-4 font-bold" onSubmit={handleSubmit}>
-                <label className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div>
-                    Flexão 
+            {[
+                { label: "Flexão", value: flexao, setValue: setFlexao },
+                { label: "Barra", value: barra, setValue: setBarra },
+                { label: "Abdominal", value: abdominal, setValue: setAbdominal },
+            ].map((item, index) => (
+                <label key={index} className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
+                    <div>{item.label}</div>
+                    <input
+                        type="number"
+                        className="w-16 text-center border-2 border-gold rounded-lg"
+                        value={item.value}
+                        onChange={(e) => item.setValue(Math.max(0, parseInt(e.target.value) || 0))}
+                    />
+                    rep's
+                </label>
+            ))}
+            {[
+                { label: "Natação 50m", value: natação, setValue: setNatação },
+                { label: "Corrida 1km", value: corrida1000m, setValue: setCorrida1000m },
+                { label: "Corrida 2.4km", value: corrida2400m, setValue: setCorrida2400m },
+            ].map((item, index) => (
+                <label key={index} className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
+                    <div className="w-full">{item.label}</div>
+                    <div className="flex items-center gap-1">
+                        <input
+                            type="number"
+                            className="w-16 text-center border-2 border-gold rounded-lg"
+                            value={Math.floor(item.value / 60)}
+                            onChange={(e) => item.setValue(Math.max(0, (parseInt(e.target.value) || 0) * 60 + item.value % 60))}
+                        />
+                        min
                     </div>
-                        <div className="flex items-center gap-2">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setFlexao((flexao - 1) < 0 ? 0 : flexao - 1);
-                        }}>-</button>
-                        {flexao}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setFlexao(flexao + 1);
-                        }}>+</button>
-                        rep`s 
+                    <div className="flex items-center gap-1">
+                        <input
+                            type="number"
+                            className="w-16 text-center border-2 border-gold rounded-lg"
+                            value={item.value % 60}
+                            onChange={(e) => item.setValue(Math.max(0, Math.floor(item.value / 60) * 60 + (parseInt(e.target.value) || 0)))}
+                        />
+                        sec
                     </div>
                 </label>
-                <label className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div>
-                        Barra
-                    </div>
-                        <div className="flex items-center gap-2">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setBarra((barra - 1) < 0 ? 0 : barra - 1);
-                        }}>-</button>
-                        {barra}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setBarra(barra + 1);
-                        }}>+</button>
-                        rep`s 
-                    </div>
-                </label><label className="flex bg-gray-200 p-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div className="w-full">
-                        Natação 50m
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setNatação((natação - 60) < 0 ? 0 : natação - 60);
-                        }}>-</button>
-                        {Math.floor(natação/60)}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setNatação(natação + 60);
-                        }}>+</button>
-                        min 
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setNatação((natação - 1) < 0 ? 0 : natação - 1);
-                        }}>-</button>
-                        {natação%60}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setNatação(natação + 1);
-                        }}>+</button>
-                        sec 
-                    </div>
-                </label>
-                <label className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div className="w-full">
-                        Corrida 1km
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida1000m((corrida1000m - 60) < 0 ? 0 : corrida1000m - 60);
-                        }}>-</button>
-                        {Math.floor(corrida1000m/60)}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida1000m(corrida1000m + 60);
-                        }}>+</button>
-                        min 
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida1000m((corrida1000m - 1) < 0 ? 0 : corrida1000m - 1);
-                        }}>-</button>
-                        {corrida1000m%60}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida1000m(corrida1000m + 1);
-                        }}>+</button>
-                        sec 
-                    </div>
-                </label>
-                <label className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div className="w-full">
-                        Corrida 2.4km
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida2400m((corrida2400m - 60) < 0 ? 0 : corrida2400m - 60);
-                        }}>-</button>
-                        {Math.floor(corrida2400m/60)}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida2400m(corrida2400m + 60);
-                        }}>+</button>
-                        min 
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida2400m((corrida2400m - 1) < 0 ? 0 : corrida2400m - 1);
-                        }}>-</button>
-                        {corrida2400m%60}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setCorrida2400m(corrida2400m + 1);
-                        }}>+</button>
-                        sec 
-                    </div>
-                </label>
-                <label className="flex bg-gray-200 px-2 py-4 rounded-lg gap-2 border-2 border-gold items-center justify-between">
-                    <div>
-                        Abdominal
-                    </div>
-                        <div className="flex items-center gap-2">
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setAbdominal((abdominal - 1) < 0 ? 0 : abdominal - 1);
-                        }}>-</button>
-                        {abdominal}
-                        <button className="bg-red-950 text-white rounded-full h-8 w-8 font-extrabold border-2 border-gold" onClick={(e) => {
-                            e.preventDefault();
-                            setAbdominal(abdominal + 1);
-                        }}>+</button>
-                        rep`s 
-                    </div>
-                </label>
-                <button type="submit" className="bg-red-950 text-white font-bold p-4 rounded-lg border-2 border-gold">Atualizar</button>
-            </form>
+            ))}
+            <button type="submit" className="bg-red-950 text-white font-bold p-4 rounded-lg border-2 border-gold">Atualizar</button>
+        </form>
         </div>
     )
 }
