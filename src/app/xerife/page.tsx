@@ -188,15 +188,27 @@ export default function Xerife() {
               </select>
             </div>
           </div>
+          <div className="flex gap-2">
           <button
             onClick={() => resetarChamada()}
             disabled={loading || !chamadaData.turno}
-            className={`button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50 ${
+            className={`button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50 cursor-pointer ${
               loading || !chamadaData.turno ? 'opacity-50 cursor-not-allowed' : ''
             }`}
           >
             ⚠️ Resetar Chamada
           </button>
+          <Link href="/relatorio">
+          <button 
+            disabled={loading || !chamadaData.turno}
+            className={`button-military px-6 py-3 rounded-lg bg-red-950 text-amber-50 cursor-pointer ${
+              loading || !chamadaData.turno ? 'opacity-50 cursor-not-allowed' : ''
+            }`}
+          >
+            Relatório Completo
+          </button>
+          </Link>
+          </div>
         </div>
       </div>
 
@@ -289,7 +301,10 @@ export default function Xerife() {
                 </div>
               )}
             </div>
-              <button onClick={() => resetarChamada(turma)} className="button-military px-3 py-2.5 rounded-r-lg  bg-red-950 text-amber-50 absolute top-0 right-0">Resetar</button>
+            <Link href={`/relatorio/${turma}`}>
+              <button className="button-military px-3 py-2.5 rounded-lg cursor-pointer bg-red-950 text-amber-50 absolute top-0 right-22">Relatório</button>
+            </Link>
+              <button onClick={() => resetarChamada(turma)} className="button-military px-3 py-2.5 rounded-lg cursor-pointer bg-red-950 text-amber-50 absolute top-0 right-0">Resetar</button>
 
             </div>
           );

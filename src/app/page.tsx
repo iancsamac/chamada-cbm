@@ -22,7 +22,7 @@ export default function Home() {
       const alunos2 = await getAlunos();
       setChamadaData({
         data: new Date().toLocaleDateString('pt-BR'),
-        turno: "Manhã",
+        turno: (new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })).slice(0, 5) > '13:00' ? 'Tarde' : 'Manhã',
         alunos: alunos2
       });
     } catch (error) {
