@@ -144,8 +144,12 @@ export default function Xerife() {
     }
   };
 
+  const getAlunosPorTurma = (turma: string) => {
+    return chamadaData.alunos.filter(aluno => aluno.turma === turma);
+  };
+
   const getFaltososPorTurma = (turma: string) => {
-    return chamadaData.alunos.filter(aluno => aluno.turma === turma && !aluno.presente);
+    return getAlunosPorTurma(turma).filter(aluno =>  aluno.turma === turma && !aluno.presente);
   };
 
   const getFaltosos = () => {
@@ -226,6 +230,7 @@ export default function Xerife() {
 
         {turmas.map(turma => {
           const faltosos = getFaltososPorTurma(turma);
+          const alunos = getAlunosPorTurma(turma);
           const isExpanded = turmasExpandidas[turma];
           return (
 
@@ -273,7 +278,8 @@ export default function Xerife() {
                     <p className="text-green-400 font-semibold p-4">Sem alteração</p>
                   ) : (
                     <div className="flex flex-col gap-2">
-                      {faltosos.map(aluno => (
+                      {alunos.map(aluno => (
+                        !aluno.presente ? (
                         <div key={aluno.id} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
                           <p className="font-bold text-gold">{(aluno.id < 10 ? '0' : '') + (aluno.id < 100 ? '0' : '') + aluno.id} - {aluno.nome}</p>
                           <div className="mt-2">
@@ -295,6 +301,12 @@ export default function Xerife() {
                             
                           </div>
                         </div>
+                      ) : (
+                        <div key={aluno.id} className=" pb-4 last:border-b-0 border p-4 border-red-950 rounded-lg">
+                          <p className="font-bold text-gold">{(aluno.id < 10 ? '0' : '') + (aluno.id < 100 ? '0' : '') + aluno.id} - {aluno.nome}</p>
+                          <p className="text-green-400 font-semibold p-4">Presente</p>
+                        </div>
+                      )
                       ))}
                     </div>
                   )}
