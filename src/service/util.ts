@@ -21,12 +21,12 @@ await prisma.aluno.update({
 export async function resetarChamadaa(turma?: string) {
   if (!turma) {
     await prisma.aluno.updateMany({
-      data: { presente: false },
+      data: { presente: false, motivo: "" },
     });
   } else {
     await prisma.aluno.updateMany({
       where: { turma: turma },
-      data: { presente: false },
+      data: { presente: false, motivo: "" },
     });
   }
 }
