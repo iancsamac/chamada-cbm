@@ -1,5 +1,6 @@
 import { getAlunos } from "@/service/util";
 import ButtonP from "./buttonP";
+
 export default async function Relatorio() {
     const alunos = await getAlunos();
     const turmas = alunos.map((aluno) => aluno.turma);

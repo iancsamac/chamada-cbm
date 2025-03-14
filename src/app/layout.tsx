@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Chamada Bombeiro Militar",
   description: "Chamada Bombeiro Militar",
+  icons: "/favicon.ico",
 };
+
+
 
 export default function RootLayout({
   children,
